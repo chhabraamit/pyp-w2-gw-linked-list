@@ -98,7 +98,6 @@ class LinkedList(AbstractLinkedList):
             i +=1
         ans = current.next
         current.next = current.next.next
-        print("here: ", ans, ans.elem, type(ans.elem))
         return ans.elem
 
     def __ne__(self, other):
